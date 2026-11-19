@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+
+# Previous git history (contains patient-level data) - never commit
+.git_old/
+
+# Patient-level data (NDRS/HES/RTDS extracts) - must never be pushed
+man/analysis/Radiotherapy_variation/*.csv
+*.RData
+*.rds
+
+# Public geospatial data: large (some >100 MB GitHub limit), re-download from ONS
+man/analysis/Geospatial_datasets/

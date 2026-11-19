@@ -1,0 +1,30 @@
+Package: PHELymphRpackage
+Type: Package
+Title: An example R package
+Version: 0.1.0
+Authors@R: person("Matti", "Vuorre", email = "mv2521@columbia.edu",
+                  role = c("aut", "cre"))
+Description: This package is an example R package.
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.1)
+Imports:
+    stringr,
+    dplyr,
+    tidyr,
+    ggplot2,
+    data.table,
+    foreach,
+    doParallel,
+    png,
+    flexsurv,
+    rstatix,
+    ggpubr,
+    survHE,
+    RcppArmadillo,
+    zoo,
+    ggExtra,
+    readxl
+URL: https://github.com/David-Andrew-Jones/PHELymphRpackage
+BugReports: https://github.com/David-Andrew-Jones/PHELymphRpackage/issues
